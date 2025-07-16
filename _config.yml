@@ -2,3 +2,7 @@ title: My Awesome Site
 theme: minima
 plugins:
   - jekyll-feed
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
