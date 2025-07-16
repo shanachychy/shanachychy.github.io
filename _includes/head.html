@@ -1,13 +1,31 @@
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- SEO & Social Meta -->
+  {%- seo -%}
+  
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  
+  <!-- MathJax Configuration -->
   {% if page.mathjax %}
   <script>
     MathJax = {
       tex: {
         inlineMath: [['\\(', '\\)']],
-        displayMath: [['\\[', '\\]']]
+        displayMath: [['\\[', '\\]']],
+        processEscapes: true
       }
     };
   </script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
   {% endif %}
+  
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="{{ "/assets/favicon.ico" | relative_url }}">
 </head>
