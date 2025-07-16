@@ -9,8 +9,8 @@
 
 // 1. Navbar Styles
 .site-nav {
-  background-color: $background-color;
-  border-bottom: 1px solid $border-color-01;
+  // background-color: $background-color;
+  // border-bottom: 1px solid $border-color-01;
   padding: 1.5rem 0;
   text-align: center;
 
@@ -20,14 +20,14 @@
     padding: 0 1rem;
 
     a {
-      color: $brand-color;
+      // color: $brand-color;
       margin: 0 1.25rem;
       text-decoration: none;
       font-weight: 500;
       font-size: 1.1rem;
 
       &:hover {
-        color: $brand-color-dark;
+        // color: $brand-color-dark;
         text-decoration: underline;
       }
     }
@@ -46,37 +46,37 @@
 }
 
 // 3. Footer Enhancements
-// .site-footer {
-//   border-top: 2px solid $border-color-01;
-//   padding: 2.5rem 0;
-//   margin-top: 3rem;
+.site-footer {
+  // border-top: 2px solid $border-color-01;
+  padding: 2.5rem 0;
+  margin-top: 3rem;
 
-//   .footer-content {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     gap: 1rem;
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 
-//     @include media-query($on-laptop) {
-//       flex-direction: row;
-//       justify-content: space-between;
-//     }
-//   }
+    @include media-query($on-laptop) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
 
-//   .social-links {
-//     display: flex;
-//     gap: 1.5rem;
+  .social-links {
+    display: flex;
+    gap: 1.5rem;
 
-//     a {
-//       color: $text-color;
-//       transition: color 0.3s ease;
+    a {
+      // color: $text-color;
+      transition: color 0.3s ease;
 
-//       &:hover {
-//         color: $brand-color;
-//       }
-//     }
-//   }
-// }
+      &:hover {
+        // color: $brand-color;
+      }
+    }
+  }
+}
 
 // 4. Responsive Adjustments
 body {
