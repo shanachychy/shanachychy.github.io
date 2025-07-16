@@ -9,6 +9,6 @@ mathjax: true    # Enable MathJax for LaTeX
 This is hosted on GitHub Pages. 🚀  
 
 Here’s a formula from my thesis:  
-\\[ \sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6} \\]
+\[ \sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6} \]
 
 [About Me](about)  <!-- Jekyll automatically handles links -->
