@@ -8,4 +8,6 @@ mathjax: true    # Enable MathJax for LaTeX
 
 This is hosted on GitHub Pages. 🚀  
 
+{% include youtube.html id="o6-7eBepVx8" %}
+
 [About Me](about)  <!-- Jekyll automatically handles links -->
